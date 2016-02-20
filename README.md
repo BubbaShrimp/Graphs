@@ -16,5 +16,6 @@ Depth-first search:
 -Go to an adjacent vertex
 
 
--Rule 1: If possible, visit an adjacent unvisited vertex, mark it, and push it on the stack.
--Rule 2: If you can’t follow Rule 1, then, if possible, pop a vertex off the stack.
+-Rule 1: If possible, visit an adjacent unvisited vertex, mark it, and push it on the stack
+
+-Rule 2: If you can’t follow Rule 1, then, if possible, pop a vertex off the stack
