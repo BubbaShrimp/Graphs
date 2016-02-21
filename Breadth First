@@ -1,0 +1,7 @@
+RULE 1
+Visit the next unvisited vertex (if there is one) that’s adjacent to the current vertex, mark it,
+and insert it into the queue.
+
+RULE 2
+If you can’t carry out Rule 1 because there are no more unvisited vertices, remove a vertex
+from the queue (if possible) and make it the current vertex.
