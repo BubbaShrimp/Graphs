@@ -42,3 +42,8 @@ Directed Graphs
     - Works on unconnecgted graphs
     - Cannot handle cycles
   - Graph with no cycles is called a tree
+  - The meaningful question about connectivity for directed graphs is: What
+    vertices can you reach if you start on a particular vertex?
+  - Warshall's algorithm gives the transitive closure of the adjacency matrix - which vertices can be reached from a starting vertex
+    - runs through the rows sequentially. For each row, if a 1 is found while traversing the columns, the corresponding column for the       row is inspected...
+    - three nested for loops
