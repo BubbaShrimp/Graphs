@@ -1,4 +1,4 @@
-# Undirected graphs
+# Unweighted graphs
 
 Need a list of vertices and either an adjacency matrix or an adjacency list.
 
